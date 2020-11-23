@@ -1,0 +1,70 @@
+.welcome-header,
+.welcome-header__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 35px;
+  font-size: 40px;
+  color: var(--lightwhite);
+  font-weight: bold;
+}
+
+.welcome-header__text {
+  margin-bottom: 75px;
+  color: var(--lightwhite);
+  font-size: 20px;
+}
+
+.welcome-header__text span:first-child {
+  margin-bottom: 5px;
+}
+
+.welcome-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-input {
+  border: none;
+  border-bottom: 1px solid var(--lightwhite);
+  padding: 28px 0px;
+  transition: border-bottom 0.3s ease-in-out;
+  background-color: transparent;
+}
+
+.welcome-input::placeholder {
+  font-size: 24px;
+  color: var(--lightwhite);
+  font-family: "Barlow Condensed";
+}
+
+.welcome-input:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+.welcome-input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--darkblue);
+}
+
+.welcome-submit {
+  height: 60px;
+  background-color: var(--darkblue);
+  border: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--lightwhite);
+  font-family: "Barlow Condensed";
+}
+
+.welcome-findAccount {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0px;
+}

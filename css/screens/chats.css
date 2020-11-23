@@ -1,0 +1,35 @@
+.chats__me span {
+  display: flex;
+  align-items: center;
+}
+
+.chats__me-badge {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  background-color: var(--gray);
+  margin-right: 5px;
+}
+
+.time {
+  position: relative;
+  top: -10px;
+}
+
+.chats-list {
+  margin-bottom: 30px;
+}
+
+.user-profile__column:last-child {
+  position: relative;
+}
+
+.user-profile__column .nav-bar__badge {
+  top: 40px;
+  right: 0px;
+}

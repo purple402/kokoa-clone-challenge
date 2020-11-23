@@ -1,0 +1,363 @@
+.hashtag-list {
+  display: flex;
+  padding: 0px 5px;
+  justify-content: space-around;
+  background-image: url("../../jpgsources/eternal-sunshine-screen-header.jpg");
+}
+
+.hashtag-list span {
+  font-size: 25px;
+  padding: 15px 0px;
+  margin: 0px 15px;
+  color: var(--lightwhite);
+}
+
+.hashtag-list span:first-child {
+  font-weight: 600;
+  border-bottom: 3px solid #08143ec0;
+}
+
+.covid {
+  background-color: #08143ec0;
+  width: 100%;
+  height: 250px;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 45px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.covid__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.covid__alert {
+  display: flex;
+  font-size: 14px;
+  background-color: #eb483f;
+  padding: 2px 4px;
+  border-radius: 7px;
+  margin-left: 6px;
+}
+
+.covid__column:nth-child(2) {
+  font-size: 25px;
+  margin: 15px 0px;
+  font-weight: 600;
+}
+
+.covid__column:nth-child(3) {
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 15px;
+  padding: 18px;
+  border-radius: 25px;
+}
+
+.covid__column:last-child {
+  opacity: 0.5;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.covid-confirmed {
+  width: 100%;
+  height: 130px;
+  border-radius: 10px;
+  position: relative;
+  top: -20px;
+  background-color: white;
+}
+
+.covid-confirmed__korea {
+  padding: 13px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.covid-confirmed__column {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.covid-confirmed__number:first-child {
+  color: var(--gray);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 13px 0px;
+}
+
+.covid-confirmed__number:nth-child(2) {
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.covid-confirmed__number i {
+  margin-right: 5px;
+}
+
+.number__red {
+  color: #eb483f;
+}
+
+.number__blue {
+  color: #439ef6;
+}
+
+.number__gray {
+  color: var(--gray);
+}
+
+.covid-confirmed__seoul {
+  background-color: #f5f6f8;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 50px;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
+  font-size: 14px;
+}
+
+.covid-seoul__column:first-child,
+.covid-seoul__column span:first-child {
+  font-weight: 600;
+}
+
+.covid-seoul__column span:first-child {
+  margin: 0px 3px;
+}
+
+.covid-seoul__column span:last-child {
+  font-size: 13px;
+  margin-left: 3px;
+}
+
+.covid-seoul__dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: var(--gray);
+}
+
+.new-confirmed {
+  position: relative;
+  top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5f6f8e7;
+}
+
+.new-confirmed__title span:first-child {
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.new-confirmed__title span:last-child {
+  color: var(--gray);
+  font-size: 15px;
+}
+
+.new-confirmed__title i {
+  color: var(--lightgray);
+}
+
+.new-confirmed__chart {
+  display: flex;
+  justify-content: space-between;
+  height: 225px;
+  margin-top: 25px;
+  align-items: flex-end;
+  font-size: 13px;
+  border-bottom: var(--main-border);
+  border-bottom-color: var(--lightgray);
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.chart__scale {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 10px;
+  border-right: var(--main-border);
+  border-right-color: var(--lightgray);
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart span {
+  color: #eb483f;
+  margin-bottom: 3px;
+}
+
+.chart__line-local,
+.chart__line-imported {
+  width: 7px;
+}
+
+.chart__line-local {
+  background-color: #eb483f;
+  border-radius: 5px 5px 0 0;
+}
+
+.chart__line-imported {
+  background-color: #edc993;
+}
+
+.date__1116 .chart__line-local {
+  height: 90px;
+}
+
+.date__1116 .chart__line-imported {
+  height: 12px;
+}
+
+.date__1117 .chart__line-local {
+  height: 110px;
+}
+
+.date__1117 .chart__line-imported {
+  height: 31px;
+}
+
+.date__1118 .chart__line-local {
+  height: 132px;
+}
+
+.date__1118 .chart__line-imported {
+  height: 23px;
+}
+
+.date__1119 .chart__line-local {
+  height: 144px;
+}
+
+.date__1119 .chart__line-imported {
+  height: 19px;
+}
+
+.date__1120 .chart__line-local {
+  height: 162px;
+}
+
+.date__1120 .chart__line-imported {
+  height: 11px;
+}
+
+.date__1121 .chart__line-local {
+  height: 136px;
+}
+
+.date__1121 .chart__line-imported {
+  height: 13px;
+}
+
+.date__1122 .chart__line-local {
+  height: 115px;
+}
+
+.date__1122 .chart__line-imported {
+  height: 7px;
+}
+
+.chart__date {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  position: relative;
+  left: 15%;
+  color: var(--gray);
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.chart__index__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.chart__index {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+
+.chart__index-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.index-local {
+  background-color: #eb483f;
+}
+
+.index-imported {
+  background-color: #edc993;
+}
+
+.covid-global {
+  position: relative;
+  width: 100%;
+  top: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f6f8e7;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.covid-global img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+@media (max-width: 465px) {
+  .covid-confirmed__seoul {
+    padding: 0px 25px;
+    font-size: 12px;
+  }
+
+  .hashtag-list span {
+    font-size: 16px;
+  }
+
+  .new-confirmed__title span:last-child {
+    color: var(--gray);
+    font-size: 14px;
+  }
+
+  .covid-confirmed__number:last-child {
+    font-size: 14px;
+  }
+
+  .covid-seoul__number i {
+    margin-right: 3px;
+  }
+}
+
+.find__nav-bar {
+  height: 43px;
+}

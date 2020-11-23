@@ -1,0 +1,109 @@
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.user-profile__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list .user-profile__photo,
+.chats-list .user-profile__photo,
+.message-row .user-profile__photo {
+  background-color: var(--darkblue);
+}
+
+.user-profile__photo i {
+  color: white;
+  font-size: 23px;
+}
+
+.user-profile__photo img {
+  width: 35px;
+  height: 35px;
+}
+
+.user-profile__photo-lg img {
+  width: 50px;
+  height: 50px;
+}
+
+@keyframes heartBeat {
+  0% {
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.user-profile:hover {
+  animation: heartBeat 1.2s ease-in-out infinite;
+}
+
+.user-profile__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile__photo {
+  width: 53px;
+  height: 53px;
+  margin-right: 15px;
+  border-radius: 40%;
+}
+
+.user-profile__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile__text__title {
+  margin-bottom: 5px;
+}
+
+.user-profile__text__title span:first-child {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--lightwhite);
+}
+
+.user-profile__text__title span:last-child {
+  color: var(--gray);
+  margin-left: 5px;
+}
+
+.user-profile__text__status span {
+  color: var(--lightwhite);
+  font-size: 17px;
+  opacity: 0.7;
+}
+
+.user-profile__photo-lg {
+  width: 70px;
+  height: 70px;
+  background-color: var(--burgundy);
+}
+
+.user-profile__column:last-child {
+  color: var(--lightwhite);
+}
+
+.user-profile__column:last-child i {
+  margin-left: 5px;
+}
+
+.user-profile__column .user-profile__me {
+  background-color: var(--burgundy);
+}
+
+.message-row .user-profile__photo {
+  margin-right: 0px;
+  position: relative;
+  left: -5px;
+}

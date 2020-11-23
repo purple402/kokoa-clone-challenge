@@ -1,0 +1,73 @@
+.list {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  margin-bottom: 15px;
+}
+
+.list__title {
+  color: var(--lightwhite);
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  font-size: 17px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen,
+#please-rotate,
+#screen-size {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../jpgsources/eternal-sunshine-2.jpg");
+  color: var(--lightwhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  position: fixed;
+  top: 0px;
+}
+
+#splash-screen {
+  font-size: 80px;
+  animation: hideSplashScreen 0.7s ease-in forwards;
+  animation-delay: 0.7s;
+}
+
+#please-rotate,
+#screen-size {
+  visibility: hidden;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  #screen-size {
+    visibility: visible;
+  }
+}
+
+@media (orientation: landscape) {
+  #please-rotate {
+    visibility: visible;
+  }
+}
+
+.bg-image {
+  background-image: url("../../jpgsources/eternal-sunshine-2.jpg");
+}
+
+.user-profile__music {
+  background-color: #e7eff9b6;
+  border: var(--main-border);
+  border-radius: 15px;
+  color: var(--gray);
+  padding: 10px;
+}

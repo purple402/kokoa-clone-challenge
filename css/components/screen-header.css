@@ -1,0 +1,44 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px var(--horizontal-space);
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 30px;
+  background-image: url("../../jpgsources/eternal-sunshine-screen-header.jpg");
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #e7eff9;
+}
+
+.screen-header__column {
+  display: flex;
+}
+
+.screen-header__icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 8px;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: #e7eff9;
+}
+
+.screen-header__icon:nth-child(2) {
+  margin: 0px 4px 0px 6px;
+}
+
+.screen-header__icon:last-child {
+  padding-right: 0px;
+}
+
+.screen-header__space {
+  width: 100%;
+  height: 80px;
+}

@@ -1,0 +1,144 @@
+.pay {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.pay .pay__column:first-child {
+  background-color: var(--lightwhite);
+  border-radius: 16px;
+  padding: 8px 16px;
+}
+
+.pay__column span {
+  font-weight: 600;
+  margin-left: 3px;
+  color: var(--lightwhite);
+}
+
+.pay__column:first-child span {
+  color: var(--gray);
+  margin-right: 6px;
+}
+
+.pay .pay__column:last-child {
+  display: flex;
+}
+
+.divider {
+  width: 1px;
+  height: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0px 7px;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  justify-content: center;
+  color: var(--lightwhite);
+}
+.icon-row__icon span {
+  font-size: 16px;
+}
+
+.icon-row__icon i {
+  margin-bottom: 12px;
+}
+
+.weather {
+  color: var(--lightwhite);
+  border-top: var(--main-border);
+  padding-top: 10px;
+  opacity: 0.8;
+}
+
+.weather__city {
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+.weather__images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather__column {
+  display: flex;
+  align-items: center;
+}
+
+.weather__column i {
+  font-size: 30px;
+  margin: 0px 5px;
+}
+
+.weather__column:last-child i {
+  font-size: 23px;
+}
+
+.weather__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.weather__image span {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.weather__day {
+  font-size: 18px;
+}
+
+.weather__today {
+  font-size: 40px;
+}
+
+.weather__today i {
+  font-size: 40px;
+}
+
+.weather__images .weather__column:last-child {
+  border: var(--main-border);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.screen-header__icon .nav-bar__dot {
+  width: 7px;
+  height: 7px;
+  top: 25px;
+  right: 25px;
+}
+
+.more-screen .user-profile:hover {
+  animation: none;
+}
+
+@keyframes rotation {
+  from {
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.more-screen .fa-cog:hover {
+  animation: rotation 2s linear infinite;
+}
